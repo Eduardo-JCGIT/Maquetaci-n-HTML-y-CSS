@@ -1,0 +1,259 @@
+h2{
+    color: blueviolet;
+}
+
+.color-green{
+    color: green;
+}
+
+#color-red{
+    color: red;
+}
+
+
+.dentro{
+    color: blue;
+}
+
+#tamimg1{
+    width: 10%;
+}
+
+#tamimg2{
+    width: 10em;
+}
+
+#tamimg3{
+    width: 10vh;
+}
+
+#tamimg4{
+    width: 50px;
+}
+
+#tamimg5{
+    width: 10vw;
+
+}
+
+#tamimg6{
+    width: 10em;
+}
+
+.box{
+    width: 300px;
+    border: 15px solid rgb(91, 181, 255);
+    padding: 50px;
+    margin: 50px;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+
+.margin{
+    border: 15px solid rgb(43, 0, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bodyf{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.pf{
+    background: rgba(255,84,104,0.3);
+    border: 2px solid rgb(255,84,104);
+    padding: 10px;
+    margin: 10px;
+  }
+  
+.spanf{
+    background: white;
+    border: 1px solid black;
+  }
+
+  .contenedor{
+    display:flex;
+    
+    }
+
+    .marsep{
+        margin-bottom: 10px;
+    }
+
+
+
+h1
+{
+  text-align: center;
+  font-family: poppins;   
+}
+    .elemento{
+    width:25%;
+    border: 3px solid black;
+    padding: 5%;
+    background-color: darkslateblue;
+    color: white;
+    font-family: poppins;
+    font-size: 3em;
+    }
+
+
+    .contenedor2{
+        display:flex;
+        flex-direction:row-reverse;
+    }
+
+    .contenedor3{
+        display:flex;
+        flex-direction:column;
+        }
+
+    .contenedor4{
+    display:flex;
+    flex-direction:column-reverse;
+    }
+
+    .contenedor5{
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .contenedor6{
+        display:flex;
+        flex-wrap:wrap-reverse;
+        }
+
+    .contenedor7{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            justify-content:center;
+            }
+    .elemento7{
+            width: 5%;
+            border: 3px solid black;
+            padding: 5%;
+            background-color: darkslateblue;
+            color: white;
+            font-family: poppins;
+            font-size: 3em;
+            }
+
+
+            .wrapper {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 10px;
+                grid-auto-rows: minmax(100px, auto);
+                font-family: poppins;
+                color: black;
+                font-size: 3em;
+              }
+              .one {
+                background-color: indigo;
+                border-radius: 15px;
+                opacity: 0.5;
+                grid-column: 1 / 3;
+                grid-row: 1;
+              }
+              .two {
+                grid-column: 2 / 4;
+                grid-row: 1 / 3;
+                background-color: indigo;
+                border-radius: 15px;
+                opacity: 0.5;
+              }
+              .three {
+                grid-column: 1;
+                grid-row: 2 / 5;
+                background-color: indigo;
+                border-radius: 15px;
+              }
+              .four {
+                grid-column: 3;
+                grid-row: 3;
+                background-color: indigo;
+                border-radius: 15px;
+              }
+              .five {
+                grid-column: 2;
+                grid-row: 4;
+                background-color: indigo;
+                border-radius: 15px;
+              }
+              .six {
+                grid-column: 3;
+                grid-row: 4;
+                background-color: indigo;
+                border-radius: 15px;
+              }
+
+    .square{
+        width: 200px;
+        height: 200px;
+        background-color: bisque;
+       /* position: fixed;*/
+       /*position: relative;*/
+      /*position: absolute;*/
+      /*left: 200px;*/
+    }
+
+    .square2{
+        width: 50px;
+        height: 20px;
+        background-color: black;
+        /*position: relative;*/
+    }
+
+    .rectangulo{
+        width: 100%;
+        height: 300px;
+        background-color: cadetblue;
+    }
+
+
+    .seccionpro{
+        padding: 2em;
+        margin: 5em auto;
+        width: 400px;
+        height: 440px;
+
+    }
+        
+    .propiedad{
+        border-radius: 5px;
+        color: #444;
+        font-size: 2.8em;
+        font-weight: bold;
+        line-height: 100px;
+        padding: .5em;
+        text-align: center;
+        background: rgba(173, 216, 230,.7);
+        width: 100px;
+        height: 100px;
+        position: relative;
+    }
+
+    .uno{
+        background: palegreen;
+        top: 50px;
+        left: 50px;
+        z-index: 1;
+    }
+
+    .dos{
+        background: tomato;
+        top: 10px;
+        left: 100px;
+        z-index: 2;
+    }
+
+    .tres{
+        background: lightblue;
+        left: 150px;
+        top: -50px;
+    }

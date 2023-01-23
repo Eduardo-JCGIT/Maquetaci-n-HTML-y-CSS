@@ -195,18 +195,35 @@ h1
     .square{
         width: 200px;
         height: 200px;
-        background-color: bisque;
+        background: lightblue;
+        border-radius: 10px;
        /* position: fixed;*/
-       /*position: relative;*/
+        margin-top: 10px;
       /*position: absolute;*/
       /*left: 200px;*/
     }
 
-    .square2{
-        width: 50px;
-        height: 20px;
-        background-color: black;
-        /*position: relative;*/
+
+    .square3{
+        width: 100%;
+        height: 300px;
+        background: palegreen;
+        border-radius: 10px;
+    }
+
+    .square4{
+        width: 100%;
+        height: 300px;
+        background: tomato;
+        border-radius: 10px;
+
+    }
+
+    .square5{
+        width: 20%;
+        height: 150px;
+        background: lightpink;
+        border-radius: 10px;
     }
 
     .rectangulo{
@@ -257,3 +274,4 @@ h1
         left: 150px;
         top: -50px;
     }
+    
